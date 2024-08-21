@@ -1,0 +1,60 @@
+.history-right-column {
+    background-color: #fff;
+    height: 566px;
+}
+
+.list-group-item.active {
+    background-color: #973131;
+    border-color: #973131;
+}
+
+time {
+    left: 29px;
+    bottom: 7px;
+}
+
+.search-history .remove {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.card .card-horizontal .card-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body {
+    width: 0px;
+}
+
+@media(max-width:767px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+
+    .card .card-horizontal time {
+        left: 10px;
+
+    }
+
+    .card .card-horizontal .fa-play {
+        right: 48px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1199px) {
+    .card .card-horizontal .card-body .channel-img {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .card .card-horizontal .card-body .channel-img {
+        margin-right: 0px !important;
+    }
+
+}

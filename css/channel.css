@@ -1,0 +1,12 @@
+.channel-page .follow button {
+    color: #fff !important;
+    background-color: #973131 !important;
+}
+
+.channel-page .vedio-section .card:hover {
+    transform: translateY(0%);
+}
+
+.watch-page #more {
+    display: none;
+}
